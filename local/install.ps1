@@ -8,4 +8,4 @@ $composer_path = [Environment]::GetFolderPath('LocalApplicationData') + "\Progra
 
 # Download PHP Configuration File.
 $php_config = join-path -path $php_path.trim(';') -childpath 'php.ini'
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/shivapoudel/dotfiles/master/local/conf/php.ini" -OutFile $php_config
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/JackRourkeK/dotfiles/master/local/conf/php.ini" -OutFile $php_config
